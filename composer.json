@@ -1,11 +1,11 @@
 {
-    "name": "your/reponame",
+    "name": "zuzsso/typed-collection",
     "description": "Common shareable functionality",
     "type": "library",
     "authors": [
         {
-            "name": "you",
-            "email": "you@yourserver.com"
+            "name": "Nico Santamaria",
+            "email": "ndsans@gmail.com"
         }
     ],
     "minimum-stability": "stable",
@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "YourProject\\": "src/"
+            "TypedCollection\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "YourProject\\Tests\\": "tests/"
+            "TypedCollection\\Tests\\": "tests/"
         }
     },
     "require": {

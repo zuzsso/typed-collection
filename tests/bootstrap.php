@@ -5,7 +5,7 @@
 declare(strict_types=1);
 
 use DI\ContainerBuilder;
-use YourProject\DependencyInjectionManifest;
+use TypedCollection\DependencyInjectionManifest;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
