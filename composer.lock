@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b2b1abb85a1e19283dac346da0d4c5f1",
+    "content-hash": "ba2420234ae48d33392574b3d7d15ede",
     "packages": [
         {
             "name": "laravel/serializable-closure",
@@ -289,7 +289,7 @@
         },
         {
             "name": "zuzsso/di-manifest",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zuzsso/di-manifest.git",
@@ -329,7 +329,7 @@
             ],
             "description": "Common shareable functionality",
             "support": {
-                "source": "https://github.com/zuzsso/di-manifest/tree/v1.0.0",
+                "source": "https://github.com/zuzsso/di-manifest/tree/v1.0.1",
                 "issues": "https://github.com/zuzsso/di-manifest/issues"
             },
             "time": "2024-04-19T23:35:40+00:00"
@@ -4164,5 +4164,5 @@
     "platform-overrides": {
         "php": "7.4.28"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
