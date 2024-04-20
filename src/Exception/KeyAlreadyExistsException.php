@@ -1,6 +1,6 @@
 <?php
 
-namespace TypedCollection\Collections\Exception;
+namespace TypedCollection\Exception;
 
 use Exception;
 

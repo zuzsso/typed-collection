@@ -4,12 +4,12 @@
 
 declare(strict_types=1);
 
-namespace TypedCollection\Collections;
+namespace TypedCollection;
 
 use Countable;
 use Iterator;
-use TypedCollection\Collections\Exception\ArrayIndexOutOfBoundsException;
-use TypedCollection\Collections\Exception\KeyAlreadyExistsException;
+use TypedCollection\Exception\ArrayIndexOutOfBoundsException;
+use TypedCollection\Exception\KeyAlreadyExistsException;
 
 abstract class AbstractStringAssociativeCollection implements Iterator, Countable
 {

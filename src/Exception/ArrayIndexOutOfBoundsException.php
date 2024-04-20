@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TypedCollection\Collections\Exception;
+namespace TypedCollection\Exception;
 
 use Exception;
 
