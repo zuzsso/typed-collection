@@ -7,8 +7,6 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 
 cd "$PROJECT_PATH" || exit
 
-
-
 php $PHP_CS_FIXER_PATH fix --rules=@PSR12 --verbose $PROJECT_PATH/src
 php $PHP_CS_FIXER_PATH fix --rules=@PSR12 --verbose $PROJECT_PATH/tests
 
