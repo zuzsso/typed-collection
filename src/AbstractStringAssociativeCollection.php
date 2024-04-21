@@ -71,6 +71,14 @@ abstract class AbstractStringAssociativeCollection implements Iterator, Countabl
         $this->collection[$key] = $value;
     }
 
+    /**
+     * @throws KeyAlreadyExistsException
+     */
+    final protected function addIntKeyUntyped(int $key, $value): void
+    {
+        $this->addStringKeyUntyped((string)$key, $value);
+    }
+
     final protected function addUnindexedUntypedElement($value): void
     {
         $this->collection[] = $value;
