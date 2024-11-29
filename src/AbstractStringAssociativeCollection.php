@@ -109,6 +109,11 @@ abstract class AbstractStringAssociativeCollection implements Iterator, Countabl
         return $this->collection[$key];
     }
 
+    final public function removeByStringKey(string $key): void
+    {
+        unset($this->collection[$key]);
+    }
+
     /**
      * @throws ArrayIndexOutOfBoundsException
      */
